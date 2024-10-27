@@ -26,9 +26,9 @@ const Experience = () => {
   ];
 
   return (
-    <div className="container relative mx-auto mb-56 w-full overflow-hidden px-3">
+    <div className="container relative mx-auto mb-56 w-full overflow-hidden px-3" id="experiences">
       <SectionTitle title="Experiences" />
-      <div className="pe-2 ps-6 pt-16 md:mx-auto md:w-10/12 md:pt-44 lg:mx-0 lg:ps-60">
+      <div className="pe-2 ps-6 pt-16 md:mx-auto md:w-10/12 md:pt-44 xl:mx-0 xl:ps-60">
         {experiences.map((experience) => (
           <div className="mb-20">
             <h1 className="montserrat-700 mb-2 text-4xl transition-all hover:text-[#aaeec3] md:mb-6 md:text-7xl">

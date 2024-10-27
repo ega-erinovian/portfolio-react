@@ -2,9 +2,9 @@ import SectionTitle from "../components/SectionTitle";
 
 const About = () => {
   return (
-    <div className="container relative mx-auto mb-56 px-3">
+    <div className="container relative mx-auto mb-56 px-3" id="about">
       <SectionTitle title="Who" />
-      <div className="pe-2 ps-6 pt-16 md:mx-auto md:w-10/12 md:pt-44 lg:mx-0 lg:ps-60">
+      <div className="pe-2 ps-6 pt-16 md:mx-auto md:w-10/12 md:pt-44 xl:mx-0 xl:ps-60">
         <h1 className="montserrat-700 mb-2 text-6xl md:mb-6 md:text-7xl">
           Full-Stack Web Developer
         </h1>
@@ -30,8 +30,8 @@ const About = () => {
           </p>
           <div className="mx-auto mt-24 w-full text-center">
             <a
-              href="#"
-              className="delay-50 mx-auto rounded-full bg-white p-4 px-10 font-semibold text-black transition-all ease-out hover:bg-[#aaeec3] "
+              href="https://drive.google.com/file/d/1j3W0P5qPe6cvVcdETU9MzpttJR-Oa9wH/view?usp=sharing" target="_blank"
+              className="delay-50 mx-auto rounded-full bg-white p-4 px-10 font-semibold text-black transition-all ease-out hover:bg-[#aaeec3]"
             >
               Download CV
             </a>

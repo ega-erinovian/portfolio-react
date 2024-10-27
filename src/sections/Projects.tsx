@@ -21,7 +21,7 @@ const Projects = () => {
   ];
   
   return (
-    <div className="container relative mx-auto mb-24 lg:mb-60 max-w-screen-xl overflow-hidden px-3">
+    <div className="container relative mx-auto mb-24 xl:mb-60 max-w-screen-xl overflow-hidden px-3" id="projects">
       <SectionTitle title="Projects" />
       <div className="px-2 pt-36 md:pt-96">
         {projects.map((project, index) => (
