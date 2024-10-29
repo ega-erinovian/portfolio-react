@@ -27,7 +27,7 @@ const Projects = () => {
         {projects.map((project, index) => (
           <>
             <hr />
-            <div className="mt-20 md:mt-32">
+            <div className="mt-20 md:mt-32 container">
               <h1 className="playfair-display-700 mb-6 text-5xl">
                 {index + 1}/{projects.length}
               </h1>

@@ -38,7 +38,7 @@ const Contacts = () => {
         </div>
       </div>
       <div className="container mx-auto flex h-[520px] w-full flex-col items-center justify-center gap-20 px-4 md:h-[1000px] xl:gap-36">
-        <h1 className="playfair-display-700 text-center text-6xl font-bold md:text-9xl">
+        <h1 className="playfair-display-700 text-center text-6xl font-bold md:text-7xl lg:text-8xl">
           Interested to work with me?
         </h1>
         <ul className="flex w-full justify-around xl:w-1/3">
