@@ -25,7 +25,7 @@ const Projects = () => {
       <SectionTitle title="Projects" />
       <div className="px-2 pt-36 md:pt-96">
         {projects.map((project, index) => (
-          <>
+          <div className="container" key={index}>
             <hr />
             <div className="mt-20 md:mt-32 container">
               <h1 className="playfair-display-700 mb-6 text-5xl">
@@ -40,7 +40,7 @@ const Projects = () => {
               <p className="text-md mb-10 md:text-xl">{project.description}</p>
               <img className="w-full" src={project.img} alt="project1" />
             </div>
-          </>
+          </div>
         ))}
       </div>
     </div>

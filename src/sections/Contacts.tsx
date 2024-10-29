@@ -42,8 +42,8 @@ const Contacts = () => {
           Interested to work with me?
         </h1>
         <ul className="flex w-full justify-around xl:w-1/3">
-          {socials.map((social) => (
-            <a href={social.link} target="_blank">
+          {socials.map((social, idx) => (
+            <a href={social.link} key={idx} target="_blank">
               <li className="rounded-full bg-white p-2 text-3xl transition-all hover:bg-[#aaeec3]">
                 {social.component}
               </li>
